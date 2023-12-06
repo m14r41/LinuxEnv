@@ -2,6 +2,15 @@
 
 This script allows users to interactively add or delete paths from the `PATH` environment variable for both Zsh (`~/.zshrc`) and Bash (`~/.bashrc`). The script prompts the user to choose their operating system and then provides options for manipulating the `PATH` variable.
 
+
+## Screnshoot for Linux
+
+![image](https://github.com/m14r41/LinuxEnv/assets/95265573/e8b3da08-b88d-4056-a95f-b4ba1b8639c2)
+
+## Screnshoot for Parrot OS
+![image](https://github.com/m14r41/LinuxEnv/assets/95265573/86bbbee3-aaac-464f-9791-9dc74f1c4432)
+
+
 ## Features
 
 1. **Colorful Output:**
