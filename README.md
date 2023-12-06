@@ -2,7 +2,23 @@
 
 This script allows users to interactively add or delete paths from the `PATH` environment variable for both Zsh (`~/.zshrc`) and Bash (`~/.bashrc`). The script prompts the user to choose their operating system and then provides options for manipulating the `PATH` variable.
 
+## Usage
+---
+**Setup to run from anywhere in the system.**
+```bash
+# Clone the repository
+git clone https://github.com/m14r41/LinuxEnv
+cd LinuxEnv
+chmod +x LinuxEnv.sh
+mv LinuxEnv.sh LinuxEnv
+sudo mv LinuxEnv /usr/local/bin
+cd ..
+rm -rf LinuxEnv
+```
+## Screnshoot After Setup
+![image](https://github.com/m14r41/LinuxEnv/assets/95265573/ab9077ce-0e51-4e88-899c-1039172450fc)
 
+---
 ## Screnshoot for Linux
 
 ![image](https://github.com/m14r41/LinuxEnv/assets/95265573/e8b3da08-b88d-4056-a95f-b4ba1b8639c2)
@@ -10,6 +26,7 @@ This script allows users to interactively add or delete paths from the `PATH` en
 ## Screnshoot for Parrot OS
 ![image](https://github.com/m14r41/LinuxEnv/assets/95265573/86bbbee3-aaac-464f-9791-9dc74f1c4432)
 
+---
 
 ## Features
 
@@ -52,13 +69,8 @@ This script allows users to interactively add or delete paths from the `PATH` en
 12. **User and Author Information:**
     - Displays the author's name (Madhurendra Kumar) and a tag (m14r41) in the ASCII art section.
 
-## Usage
+---
 
-1. Run the script.
-2. Choose the operating system (Kali Linux or Parrot OS).
-3. Select the desired action (Add or Delete a path).
-4. Enter the path to be added or deleted when prompted.
-5. Receive confirmation messages about the success or failure of the operation.
 
 **Note:**
-Ensure that you have appropriate permissions to modify the configuration files (`~/.zshrc` or `~/.bashrc`). The script should be run in an interactive shell for changes to take effect immediately.
+Ensure that you have appropriate permissions to modify the configuration files (`~/.zshrc` or `~/.bashrc`).
